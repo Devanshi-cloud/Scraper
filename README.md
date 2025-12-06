@@ -37,7 +37,7 @@ Follow these steps to get the scraper up and running on your local machine.
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/MusabAM/WebScrapperMongoDB.git](https://github.com/MusabAM/WebScrapperMongoDB.git)
+    git clone [https://github.com/Devanshi-cloud/Scraper.git])
     cd WebScrapperMongoDB
     ```
     
