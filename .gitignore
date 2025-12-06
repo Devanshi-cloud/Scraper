@@ -1,0 +1,35 @@
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+lib/
+include/
+bin/
+pip-log.txt
+pip-delete-this-arg.txt
+
+# OS
+.DS_Store
+.localized
+.project
+.settings
+.vs/
+*.user
+*.suo
+*.sln.docstates
+ehthumbs.db
+Thumbs.db
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Dotenv
+.env

@@ -1,0 +1,186 @@
+2025-12-06 10:31:19,081 - INFO - ============================================================
+2025-12-06 10:31:19,081 - INFO - Starting SquareYards Scraper
+2025-12-06 10:31:19,081 - INFO - ============================================================
+2025-12-06 10:31:32,377 - ERROR - Connection attempt 1 failed: ac-xery7ij-shard-00-02.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms),ac-xery7ij-shard-00-00.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms),ac-xery7ij-shard-00-01.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6933b89f10d72434f1c3c387, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-xery7ij-shard-00-00.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-00.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>, <ServerDescription ('ac-xery7ij-shard-00-01.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-01.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>, <ServerDescription ('ac-xery7ij-shard-00-02.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-02.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-06 10:31:43,288 - ERROR - Connection attempt 2 failed: ac-xery7ij-shard-00-02.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms),ac-xery7ij-shard-00-00.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms),ac-xery7ij-shard-00-01.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6933b8ad10d72434f1c3c388, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-xery7ij-shard-00-00.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-00.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>, <ServerDescription ('ac-xery7ij-shard-00-01.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-01.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>, <ServerDescription ('ac-xery7ij-shard-00-02.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-02.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-06 10:31:51,595 - ERROR - Connection attempt 3 failed: ac-xery7ij-shard-00-02.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms),ac-xery7ij-shard-00-00.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms),ac-xery7ij-shard-00-01.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6933b8b910d72434f1c3c389, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-xery7ij-shard-00-00.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-00.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>, <ServerDescription ('ac-xery7ij-shard-00-01.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-01.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>, <ServerDescription ('ac-xery7ij-shard-00-02.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-02.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-06 10:31:51,596 - ERROR - Failed to connect to MongoDB: ac-xery7ij-shard-00-02.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms),ac-xery7ij-shard-00-00.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms),ac-xery7ij-shard-00-01.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6933b8b910d72434f1c3c389, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-xery7ij-shard-00-00.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-00.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>, <ServerDescription ('ac-xery7ij-shard-00-01.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-01.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>, <ServerDescription ('ac-xery7ij-shard-00-02.x77xfae.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xery7ij-shard-00-02.x77xfae.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997) (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-06 10:33:38,155 - INFO - ============================================================
+2025-12-06 10:33:38,156 - INFO - Starting SquareYards Scraper
+2025-12-06 10:33:38,156 - INFO - ============================================================
+2025-12-06 10:33:41,921 - INFO - ✓ Connected to MongoDB - Database: ccube_research, Collection: apartment
+2025-12-06 10:33:43,288 - INFO - ✓ Chrome driver initialized
+2025-12-06 10:33:43,290 - INFO - Loading: https://www.squareyards.com/ready-to-move-projects-in-bangalore
+2025-12-06 10:33:44,418 - INFO - ✓ Page loaded successfully
+2025-12-06 10:33:44,418 - INFO - 
+============================================================
+2025-12-06 10:33:44,418 - INFO - Page 1/50 | Elapsed: 0m 1s
+2025-12-06 10:33:44,418 - INFO - ============================================================
+2025-12-06 10:33:46,207 - INFO - Found 36 listings on page
+2025-12-06 10:33:46,207 - INFO - Processing listing 1/36
+2025-12-06 10:33:46,240 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/shriram-pristine-estates/210697/project
+2025-12-06 10:33:48,085 - INFO - ✓ Inserted: Shriram Pristine Estates (ID: 6933b934778df55e5d498390)
+2025-12-06 10:33:49,553 - INFO - Processing listing 2/36
+2025-12-06 10:33:49,588 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/amrutha-platinum-towers/25406/project
+2025-12-06 10:33:52,000 - INFO - ✓ Inserted: Amrutha Platinum Towers (ID: 6933b937778df55e5d498391)
+2025-12-06 10:33:53,098 - INFO - Processing listing 3/36
+2025-12-06 10:33:53,317 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/provident-sunworth/1606/project
+2025-12-06 10:33:56,441 - INFO - ✓ Inserted: Provident Sunworth (ID: 6933b93c778df55e5d498392)
+2025-12-06 10:33:57,249 - INFO - Processing listing 4/36
+2025-12-06 10:33:57,281 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/bhartiya-nikoo-homes/1655/project
+2025-12-06 10:33:59,306 - INFO - ✓ Inserted: Bhartiya Nikoo Homes (ID: 6933b93f778df55e5d498393)
+2025-12-06 10:33:59,960 - INFO - Processing listing 5/36
+2025-12-06 10:34:00,003 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/provident-park-square/9661/project
+2025-12-06 10:34:03,309 - INFO - ✓ Inserted: Provident Park Square (ID: 6933b943778df55e5d498394)
+2025-12-06 10:34:04,035 - INFO - Processing listing 6/36
+2025-12-06 10:34:04,251 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/earthsong-by-manyata/146842/project
+2025-12-06 10:34:06,894 - INFO - ✓ Inserted: Earthsong by Manyata (ID: 6933b946778df55e5d498395)
+2025-12-06 10:34:07,760 - INFO - Processing listing 7/36
+2025-12-06 10:34:07,804 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sattva-bhumi/312424/project
+2025-12-06 10:34:09,760 - INFO - ✓ Inserted: Sattva Bhumi (ID: 6933b949778df55e5d498396)
+2025-12-06 10:34:10,815 - INFO - Processing listing 8/36
+2025-12-06 10:34:10,856 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/bhartiya-nikoo-homes-phase-2/8334/project
+2025-12-06 10:34:17,462 - INFO - ✓ Inserted: Bhartiya Nikoo Homes Phase 2 (ID: 6933b951778df55e5d498397)
+2025-12-06 10:34:18,720 - INFO - Processing listing 9/36
+2025-12-06 10:34:18,766 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/provident-capella/10632/project
+2025-12-06 10:34:22,655 - INFO - ✓ Inserted: Provident Capella (ID: 6933b956778df55e5d498398)
+2025-12-06 10:34:23,711 - INFO - Processing listing 10/36
+2025-12-06 10:34:23,751 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/shriram-greenfield/1429/project
+2025-12-06 10:34:27,302 - INFO - ✓ Inserted: Shriram Greenfield (ID: 6933b95b778df55e5d498399)
+2025-12-06 10:34:28,584 - INFO - Processing listing 11/36
+2025-12-06 10:34:28,618 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-cornerstone-utopia-tranquil-block/100096/project
+2025-12-06 10:34:31,434 - INFO - ✓ Inserted: Brigade Cornerstone Utopia Tranquil Block (ID: 6933b95f778df55e5d49839a)
+2025-12-06 10:34:32,641 - INFO - Processing listing 12/36
+2025-12-06 10:34:32,678 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/arvind-greatlands/208378/project
+2025-12-06 10:34:35,698 - INFO - ✓ Inserted: Arvind Greatlands (ID: 6933b963778df55e5d49839b)
+2025-12-06 10:34:36,666 - INFO - Processing listing 13/36
+2025-12-06 10:34:36,700 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/embassy-springs-plots/16940/project
+2025-12-06 10:34:40,012 - INFO - ✓ Inserted: Embassy Springs Plots (ID: 6933b967778df55e5d49839c)
+2025-12-06 10:34:41,431 - INFO - Processing listing 14/36
+2025-12-06 10:34:41,643 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/prestige-kings-county/251789/project
+2025-12-06 10:34:44,348 - INFO - ✓ Inserted: Prestige Kings County (ID: 6933b96c778df55e5d49839d)
+2025-12-06 10:34:45,439 - INFO - Processing listing 15/36
+2025-12-06 10:34:45,491 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/assetz-inspira-melodies-of-life/242619/project
+2025-12-06 10:34:48,035 - INFO - ✓ Inserted: Assetz Inspira Melodies of Life (ID: 6933b96f778df55e5d49839e)
+2025-12-06 10:34:48,704 - INFO - Processing listing 16/36
+2025-12-06 10:34:48,740 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/purva-kensho-hills/246455/project
+2025-12-06 10:34:50,697 - INFO - ✓ Inserted: Purva Kensho Hills (ID: 6933b972778df55e5d49839f)
+2025-12-06 10:34:51,378 - INFO - Processing listing 17/36
+2025-12-06 10:34:51,419 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/assetz-promise-of-spring/246863/project
+2025-12-06 10:34:54,580 - INFO - ✓ Inserted: Assetz Promise of Spring (ID: 6933b976778df55e5d4983a0)
+2025-12-06 10:34:55,822 - INFO - Processing listing 18/36
+2025-12-06 10:34:55,855 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/kolte-patil-raaga/1592/project
+2025-12-06 10:34:58,962 - INFO - ✓ Inserted: Kolte Patil Raaga (ID: 6933b97a778df55e5d4983a1)
+2025-12-06 10:34:59,713 - INFO - Processing listing 19/36
+2025-12-06 10:34:59,750 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/century-renata/1513/project
+2025-12-06 10:35:02,108 - INFO - ✓ Inserted: Century Renata (ID: 6933b97e778df55e5d4983a2)
+2025-12-06 10:35:02,687 - INFO - Processing listing 20/36
+2025-12-06 10:35:02,725 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/kolte-patil-raaga-phase-ii/15743/project
+2025-12-06 10:35:05,217 - INFO - ✓ Inserted: Kolte Patil Raaga Phase II (ID: 6933b981778df55e5d4983a3)
+2025-12-06 10:35:06,272 - INFO - Processing listing 21/36
+2025-12-06 10:35:06,316 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-sapphire/1841/project
+2025-12-06 10:35:08,433 - INFO - ✓ Inserted: Sobha Sapphire (ID: 6933b984778df55e5d4983a4)
+2025-12-06 10:35:09,879 - INFO - Processing listing 22/36
+2025-12-06 10:35:09,919 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/century-breeze/1459/project
+2025-12-06 10:35:12,697 - INFO - ✓ Inserted: Century Breeze (ID: 6933b988778df55e5d4983a5)
+2025-12-06 10:35:13,685 - INFO - Processing listing 23/36
+2025-12-06 10:35:13,721 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-altamont/1561/project
+2025-12-06 10:35:16,546 - INFO - ✓ Inserted: Brigade Altamont (ID: 6933b98c778df55e5d4983a6)
+2025-12-06 10:35:17,097 - INFO - Processing listing 24/36
+2025-12-06 10:35:17,131 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-crescent/1810/project
+2025-12-06 10:35:19,228 - INFO - ✓ Inserted: Brigade Crescent (ID: 6933b98f778df55e5d4983a7)
+2025-12-06 10:35:20,710 - INFO - Processing listing 25/36
+2025-12-06 10:35:20,746 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/puravankara-purva-heights/1921/project
+2025-12-06 10:35:23,640 - INFO - ✓ Inserted: Puravankara Purva Heights (ID: 6933b993778df55e5d4983a8)
+2025-12-06 10:35:24,240 - INFO - Processing listing 26/36
+2025-12-06 10:35:24,282 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-millennium-magnolia/1955/project
+2025-12-06 10:35:27,974 - INFO - ✓ Inserted: Brigade Millennium Magnolia (ID: 6933b997778df55e5d4983a9)
+2025-12-06 10:35:28,886 - INFO - Processing listing 27/36
+2025-12-06 10:35:29,344 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/puravankara-the-waves/1422/project
+2025-12-06 10:35:33,686 - INFO - ✓ Inserted: Puravankara The Waves (ID: 6933b99d778df55e5d4983aa)
+2025-12-06 10:35:35,137 - INFO - Processing listing 28/36
+2025-12-06 10:35:35,354 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-altair-apartments/1874/project
+2025-12-06 10:35:37,989 - INFO - ✓ Inserted: Brigade Altair Apartments (ID: 6933b9a1778df55e5d4983ab)
+2025-12-06 10:35:38,494 - INFO - Processing listing 29/36
+2025-12-06 10:35:38,533 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/puravankara-palm-beach/10429/project
+2025-12-06 10:35:44,943 - INFO - ✓ Inserted: Puravankara Palm Beach (ID: 6933b9a8778df55e5d4983ac)
+2025-12-06 10:35:46,370 - INFO - Processing listing 30/36
+2025-12-06 10:35:46,847 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/prestige-d-villa/17225/project
+2025-12-06 10:35:49,800 - INFO - ✓ Inserted: Prestige D Villa (ID: 6933b9ad778df55e5d4983ad)
+2025-12-06 10:35:50,815 - INFO - Processing listing 31/36
+2025-12-06 10:35:50,856 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/purva-coronation-square/14977/project
+2025-12-06 10:35:52,871 - INFO - ✓ Inserted: Purva Coronation Square (ID: 6933b9b0778df55e5d4983ae)
+2025-12-06 10:35:54,170 - INFO - Processing listing 32/36
+2025-12-06 10:35:54,213 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-harmony/1949/project
+2025-12-06 10:35:57,176 - INFO - ✓ Inserted: Brigade Harmony (ID: 6933b9b5778df55e5d4983af)
+2025-12-06 10:35:58,580 - INFO - Processing listing 33/36
+2025-12-06 10:35:58,615 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-ruby-platinum/1866/project
+2025-12-06 10:36:01,577 - INFO - ✓ Inserted: Sobha Ruby Platinum (ID: 6933b9b9778df55e5d4983b0)
+2025-12-06 10:36:02,819 - INFO - Processing listing 34/36
+2025-12-06 10:36:02,857 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-rose/1993/project
+2025-12-06 10:36:05,776 - INFO - ✓ Inserted: Sobha Rose (ID: 6933b9bd778df55e5d4983b1)
+2025-12-06 10:36:07,155 - INFO - Processing listing 35/36
+2025-12-06 10:36:07,191 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-lavender/1844/project
+2025-12-06 10:36:10,759 - INFO - ✓ Inserted: Sobha Lavender (ID: 6933b9c2778df55e5d4983b2)
+2025-12-06 10:36:11,607 - INFO - Processing listing 36/36
+2025-12-06 10:36:11,645 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/embassy-one-central-plaza/234373/project
+2025-12-06 10:36:15,515 - INFO - ✓ Inserted: Embassy One Central Plaza (ID: 6933b9c7778df55e5d4983b3)
+2025-12-06 10:36:16,405 - INFO - Page 1 complete: 36 inserted, 0 skipped
+2025-12-06 10:36:18,944 - INFO - Clicked next arrow
+2025-12-06 10:36:22,976 - INFO - 
+============================================================
+2025-12-06 10:36:22,978 - INFO - Page 2/50 | Elapsed: 2m 39s
+2025-12-06 10:36:22,978 - INFO - ============================================================
+2025-12-06 10:36:24,723 - INFO - Found 36 listings on page
+2025-12-06 10:36:24,723 - INFO - Processing listing 1/36
+2025-12-06 10:36:24,757 - INFO - ⊘ Duplicate found: Brigade Millennium Magnolia
+2025-12-06 10:36:25,304 - INFO - Processing listing 2/36
+2025-12-06 10:36:25,342 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/puravankara-tree-haven/113998/project
+2025-12-06 10:36:29,522 - INFO - ✓ Inserted: Puravankara Tree Haven (ID: 6933b9d4778df55e5d4983b4)
+2025-12-06 10:36:30,685 - INFO - Processing listing 3/36
+2025-12-06 10:36:30,724 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-hibiscus/1963/project
+2025-12-06 10:36:33,169 - INFO - ✓ Inserted: Sobha Hibiscus (ID: 6933b9d9778df55e5d4983b5)
+2025-12-06 10:36:33,864 - INFO - Processing listing 4/36
+2025-12-06 10:36:33,899 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/ganga-prive/16996/project
+2025-12-06 10:36:36,701 - INFO - ✓ Inserted: Ganga Prive (ID: 6933b9dc778df55e5d4983b6)
+2025-12-06 10:36:37,988 - INFO - Processing listing 5/36
+2025-12-06 10:36:38,027 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-lotus/1824/project
+2025-12-06 10:36:39,905 - INFO - ✓ Inserted: Sobha Lotus (ID: 6933b9df778df55e5d4983b7)
+2025-12-06 10:36:41,064 - INFO - Processing listing 6/36
+2025-12-06 10:36:41,106 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-elite/1695/project
+2025-12-06 10:36:43,512 - INFO - ✓ Inserted: Sobha Elite (ID: 6933b9e3778df55e5d4983b8)
+2025-12-06 10:36:44,550 - INFO - Processing listing 7/36
+2025-12-06 10:36:44,762 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/puravankara-bougainvilla/1671/project
+2025-12-06 10:36:47,045 - INFO - ✓ Inserted: Puravankara Bougainvilla (ID: 6933b9e7778df55e5d4983b9)
+2025-12-06 10:36:48,022 - INFO - Processing listing 8/36
+2025-12-06 10:36:48,237 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-orchards-luxury-apartments/10241/project
+2025-12-06 10:36:50,618 - INFO - ✓ Inserted: Brigade Orchards Luxury Apartments (ID: 6933b9ea778df55e5d4983ba)
+2025-12-06 10:36:51,967 - INFO - Processing listing 9/36
+2025-12-06 10:36:52,001 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-golden-magic-block/1805/project
+2025-12-06 10:36:54,511 - INFO - ✓ Inserted: Brigade Golden Magic Block (ID: 6933b9ee778df55e5d4983bb)
+2025-12-06 10:36:55,379 - INFO - Processing listing 10/36
+2025-12-06 10:36:55,416 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-jasmine/1914/project
+2025-12-06 10:36:58,395 - INFO - ✓ Inserted: Brigade Jasmine (ID: 6933b9f2778df55e5d4983bc)
+2025-12-06 10:36:59,070 - INFO - Processing listing 11/36
+2025-12-06 10:36:59,108 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-onyx/1957/project
+2025-12-06 10:37:01,949 - INFO - ✓ Inserted: Sobha Onyx (ID: 6933b9f5778df55e5d4983bd)
+2025-12-06 10:37:02,614 - INFO - Processing listing 12/36
+2025-12-06 10:37:02,658 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-hallmark/1660/project
+2025-12-06 10:37:06,016 - INFO - ✓ Inserted: Brigade Hallmark (ID: 6933b9f9778df55e5d4983be)
+2025-12-06 10:37:07,440 - INFO - Processing listing 13/36
+2025-12-06 10:37:07,478 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-coronet/1686/project
+2025-12-06 10:37:10,974 - INFO - ✓ Inserted: Brigade Coronet (ID: 6933b9fe778df55e5d4983bf)
+2025-12-06 10:37:11,668 - INFO - Processing listing 14/36
+2025-12-06 10:37:11,714 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/platinum-royal-city/16635/project
+2025-12-06 10:37:14,096 - INFO - ✓ Inserted: Platinum Royal City (ID: 6933ba02778df55e5d4983c0)
+2025-12-06 10:37:14,634 - INFO - Processing listing 15/36
+2025-12-06 10:37:14,671 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-ivory/15784/project
+2025-12-06 10:37:18,059 - INFO - ✓ Inserted: Sobha Ivory (ID: 6933ba05778df55e5d4983c1)
+2025-12-06 10:37:19,067 - INFO - Processing listing 16/36
+2025-12-06 10:37:19,285 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/sobha-aster/1834/project
+2025-12-06 10:37:21,976 - INFO - ✓ Inserted: Sobha Aster (ID: 6933ba09778df55e5d4983c2)
+2025-12-06 10:37:23,207 - INFO - Processing listing 17/36
+2025-12-06 10:37:23,245 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-millennium-cassia/1845/project
+2025-12-06 10:37:27,203 - INFO - ✓ Inserted: Brigade Millennium Cassia (ID: 6933ba0f778df55e5d4983c3)
+2025-12-06 10:37:27,842 - INFO - Processing listing 18/36
+2025-12-06 10:37:27,877 - INFO - Fetching detail page: https://www.squareyards.com/bangalore-residential-property/brigade-homestead/17835/project
