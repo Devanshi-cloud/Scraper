@@ -101,13 +101,13 @@ Before running the scraper, you need to configure your database connection and s
     if not MONGO_URI:
         raise ValueError("MONGO_URI environment variable not set. Please create a .env file.")
 
-    DB_NAME = 'Svastha'
+    DB_NAME = 'Scraper'
     COLLECTION_NAME = 'Squareyard Data'
     ```
 
 2.  **Adjust other script parameters in `squareyards_scraper.py`:**
 
-    * `DB_NAME`: The name of your database (e.g., `'Svastha'`).
+    * `DB_NAME`: The name of your database (e.g., `'Scraper'`).
     * `COLLECTION_NAME`: The name of the collection where data will be stored (e.g., `'Squareyard Data'`).
     * `RUN_DURATION_HOURS`: The maximum time the scraper will run, in hours (e.g., `1` hour).
     * `initial_search_url`: The starting URL for the SquareYards search (e.g., `"https://www.squareyards.com/ready-to-move-projects-in-bangalore"`).
